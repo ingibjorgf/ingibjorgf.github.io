@@ -121,3 +121,76 @@ a:hover {
   right: 10%;
   text-align: justify;
 }
+
+.banner-image {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    transition: background-color 0.4s ease 0s;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    color: transparent;
+    padding: 70px 0px 70px 0px;
+}
+
+.overlay-title {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.overlay-describe {
+    font-size: 1vw;
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+
+.overlay-permhover {
+    color: black;
+    background-color: white;
+    opacity: 0.85;
+    z-index: 10;
+}
+
+
+.overlay:hover {
+    color: black;
+    background-color: white;
+    opacity: 0.85;
+    z-index: 10;
+}
+
+
+.crop {
+  width: 69vw;
+  height: 15vw;
+  overflow: hidden;
+  margin-bottom: 50px;
+  top: 20vw;
+  left: 27%;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    left: 27%;
+    top: 17vw;
+    width: 69vw;
+    height: 500px;
+    font-size: 2vw;
+    color: black;
+    background: black;
+    display: none;
+
+}
+
+#Einn {
+    margin-top: -230px;
+}
