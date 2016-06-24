@@ -1,0 +1,123 @@
+body {
+    font-family: "Courier New", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-align: center;
+    font-size: 10px;
+    border: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+#name {
+    position: absolute;
+    color: white;
+    letter-spacing: 0.1;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 10vw;
+    left: 26%;
+    top: 8vw;
+    font: helvetica;
+    text-shadow: #ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px;
+}
+
+
+#ingibjorg {
+  font-size: 1.5vw;
+  color: black;
+  position: absolute;
+  background: white;
+  left: 25%;
+  top: 19vw;
+  padding: 7px 12px 7px 12px;
+  text-align: left;
+  font: Courier New;
+}
+
+#ingibjorg2 {
+  font-size: 1.5vw;
+  color: black;
+  position: absolute;
+  background: white;
+  left: 13%;
+  top: 9vw;
+  padding: 7px 12px 7px 12px;
+  text-align: left;
+  font: Courier New;
+}
+
+#composer {
+  font-size: 1vw;
+  color: black;
+  position: absolute;
+  left: 25%;
+  top: 23vw;
+  padding: 7px 7px 7px 12px;
+  text-align: left;
+  font: helvetica;
+  background: white;
+}
+
+#vocalist {
+  font-size: 1vw;
+  color: black;
+  position: absolute;
+  left: 25%;
+  top: 25.5vw;
+  padding: 6px 6px 6px 12px;
+  text-align: left;
+  font: helvetica;
+  background: white;
+}
+
+
+#compositions {
+  font-size: 1vw;
+  color: black;
+  position: absolute;
+  left: 14.5%;
+  top: 33vw;
+  padding: 6px 12px 6px 6px;
+  text-align: right;
+  font: helvetica;
+  background: white;
+}
+
+#about {
+  font-size: 1vw;
+  color: black;
+  position: absolute;
+  left: 18.5%;
+  top: 36vw;
+  padding: 6px 12px 6px 6px;
+  text-align: right;
+  font: helvetica;
+  background: white;
+}
+
+#title {
+  font-size: 3vw;
+  color: black;
+  position: absolute;
+  left: 54%;
+  top: 5vw;
+  padding: 6px 12px 6px 6px;
+  text-align: right;
+  font: helvetica;
+  background: white;
+}
+
+#aboutmain {
+  font-size: 1.05vw;
+  position: absolute;
+  top: 13vw;
+  left: 25%;
+  right: 10%;
+  text-align: justify;
+}
