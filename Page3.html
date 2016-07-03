@@ -14,32 +14,495 @@ body{
       background: url(Myndir/bimg3.png);
       background-size: 100%;
       background-repeat: no-repeat;
+      background-attachment: fixed;
     }
       </style>
 
-      <div id="about"><a href="Page2.html">About</a></div>
-      <div id="compositions"> <a href="Page3.html">Compositions</a></div>
+      <div id="about" class="fixed"><a href="Page2.html">About</a></div>
+      <div id="compositions" class="fixed"> <a href="Page3.html">Compositions</a></div>
 
-      <div id="title">Compositions</div>
-      <div id="ingibjorg2"> <a href="Index.html">INGIBJÖRG FRIÐRIKSDÓTTIR </a> </div>
+      <div id="title" class="fixed">Compositions</div>
+      <div id="ingibjorg2" class="fixed"> <a href="Index.html">INGIBJÖRG FRIÐRIKSDÓTTIR </a> </div>
 
+      <div id="type">Electronic Composition </div>
+
+      <!-- I idrum -->
       <div>
           <div class="crop">
-              <img class="banner-image" id="Einn" src="Myndir/Main.jpg">
+              <img class="banner-image" id="Idrum" src="Myndir/idrum.jpg">
               <div class="overlay">
                   <span class="overlay-title">Í Iðrum</span>
                   <br/></br>
-                  <span class="overlay-describe">Reconstructing a piano with Arduino and Pure Data controlling the playing of strings to perform a composition using data from the earthquakes  of the Bardabunga volcano in 2014. Premiered at Cycle Art and Music Festival, august 2015. </span>
+                  <span class="overlay-describe">Reconstructing a piano with Arduino and Solenoid motors to control the playing of strings to perform a composition using data from the earthquakes  of the Bardabunga volcano in 2014.</span>
               </div>
           </div>
 
-          <div id="Muschine-drop" class="dropdown">
-              <p>My description</p>
-              <p>extra extra extra</p>
+          <div id="Idrum-drop" class="dropdown">
+            <iframe width="990" height="600" src="https://www.youtube.com/embed/PPvdobYv1DU" frameborder="0" allowfullscreen></iframe>
+              <div class="titleall"> Í Iðrum / Underground </div>
+              <p> Reconstructing a piano and controlling the playing of strings with Arduino micro controller and Solenoid motors to perform a composition using data from the earthquakes  of the Bardabunga volcano in 2014.
+              </p>
+              <p>It is established practice to put data into music to gain deeper understanding of the information. The composition Underground is built on this tradition. It is comprised of two independent, yet complimentary components. The physical aspect of an old, rusty, upright piano that has been transformed into a new instrument and simultaneously a music composition based on data from the Icelandic Meteorological Office about earthquakes in Bardabunga volcano from 08/29/2014 - 09/01/2014. These are the first four days before Bardabunga erupted, rewritten into a 20 minute composition. The bigger the earthquake the deeper the string on the instrument in played. The earthquakes grow as the eruption comes closer. The quakes turn out to be very musical and very unpredictable.
+The instrument is built on an old upright piano. A part of the hammer mechanism, the jack, was reused to build new hammers that play the strings. These new hammers are controlled with small motors, solenoids, and hammer straight on the strings.
+ </p>
+              <p>The piano was tuned to a new scale, the lower strings are very loose and represent the deep shakes of an earthquake, the subwoofer is also meant to underline the quake effects with deep base tones that “shake” the audience.
+            </p>
+            <p>Positioned around the instrument in the room are four speakers and a subwoofer. A microphone captures the sound of the instrument and broadcasts it to the speakers in real time. Additionally, effects are applied to the sound in real time. Listeners are asked to walk around the space while the piece is performed.</p>
+            <p>Premiered at Cycle Art and Music Festival, august 2015.</p>
+            <img src="Myndir/Idrum.jpg" style="width: 950px; height:628;"></iframe>
+          </div>
+      </div>
+
+      <!-- Moog -->
+
+
+      <div>
+          <div class="crop">
+              <img class="banner-image" id="Moog" src="Myndir/Moog.jpg">
+              <div class="overlay">
+                  <span class="overlay-title">Moog</span>
+                  <br/></br>
+                  <span class="overlay-describe"> A series of ten electronic compositions using Moog IIIP as the fundamental sound source.  </span>
+              </div>
           </div>
 
+          <div id="Moog-drop" class="dropdown">
+<iframe width="990" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/266668062&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<div class="titleall"> MOOG </div>
+              <p>The Electronic Music Studio in Mills College where I am currently pursuing my Masters degree in Electronic Music composition houses early voltage-controlled analog synthesisers, including a Moog IIIP and Buchla 100. This composition is an experiment to use the Moog as the only sound-source for a composition and record it using an ADAT 8-track digital recorder. No post mixing or mastering was done to this recording. This medium disallowing any editing after initial recording makes for a unique and interesting challenge. </p>
+              <p>Premiered in April 2016, Mills Hall.</p>
+          </div>
+      </div>
 
-        </div>
+      <!-- SC3 -->
+      <div>
+          <div class="crop">
+              <img class="banner-image" id="SC3" src="Myndir/SC3.jpg">
+              <div class="overlay">
+                  <span class="overlay-title">SC3</span>
+                  <br/></br>
+                  <span class="overlay-describe"> A five minute long electronic music composition built using SuperCollider - The sound source is eight synths - five generating harmonic material, while three generating rhythmic patterns.
+  </span>
+              </div>
+          </div>
+
+          <div id="SC3-drop" class="dropdown">
+<iframe width="990" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271468853&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<div class="titleall"> SC3 </div>
+            <p>A five minute long electronic music composition built using SuperCollider - The sound source is eight synths - five generating harmonic material, while three generating rhythmic patterns. This composition was an experiment to use only SuperCollider as a compositional tool.
+</p>
+          </div>
+      </div>
+
+  <!-- Blonde Beauty -->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Blonde" src="Myndir/Blonde.png">
+          <div class="overlay">
+              <span class="overlay-title">Blonde Beauty</span>
+              <br/></br>
+              <span class="overlay-describe"> Blonde Beauty is a composition built on three pieces of found footage and three samples from old songs, recycling old material to make a new piece of work.  </span>
+          </div>
+      </div>
+
+      <div id="Blonde-drop" class="dropdown">
+        <iframe width="990" height="600" src="https://www.youtube.com/embed/8kWfvShOido" frameborder="0" allowfullscreen></iframe>
+        <div class="titleall"> Blonde Beauty </div>
+          <p>Blonde Beauty is a composition built on three pieces of found footage and three samples from old songs, recycling old material to make a new piece of work. </p>
+          <p>Premiered in May 2016, Pro Arts Gallery in Oakland.</p>
+      </div>
+  </div>
+
+  <!-- The Invisable Guitarist-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Guitar" src="Myndir/Guitar.jpg">
+          <div class="overlay">
+              <span class="overlay-title"> The Invisible Guitarist </span>
+              <br/></br>
+              <span class="overlay-describe"> The Invisible Guitarist is an electronic music composition where pre-recorded guitar samples are controlled by motion detectors. It is an exploration of space as much as time.
+ </span>
+          </div>
+      </div>
+
+      <div id="Guitar-drop" class="dropdown">
+<iframe width="990" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271460795&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        <div class="titleall"> The Invisible Guitarist </div>
+          <p>The Invisible Guitarist is an electronic music composition where pre-recorded guitar samples are controlled by motion detectors. The audience walk through an imaginary six string guitar - six motion detectors - that then generate guitar samples.
+</p>
+          <p>The composer provides a framework of musical material - samples - but the audience take part in creating the composition with their movements. Every time the piece is performed it is different, depending on their movements.
+</p>
+            <p>The composition begins with only a few samples but over time, as the audience play, more samples become available. The composition does not have a fixed length, but goes on as long as the invisible guitar is played. It is an exploration of space as much as time.</p>
+              <p>Premiered May 2013 at The North Pole Theatre, Reykjavik.
+</p>
+      </div>
+  </div>
+
+  <!-- Live Coding-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Coding" src="Myndir/Coding.png">
+          <div class="overlay">
+              <span class="overlay-title">Live-Coding Improvisation </span>
+              <br/></br>
+              <span class="overlay-describe"> An electronic improvisation duo with Ricardo Saavedra where live coding in SuperCollider and ixi lang meet.
+ </span>
+          </div>
+      </div>
+
+      <div id="Coding-drop" class="dropdown">
+<iframe width="990" height="600" src="https://www.youtube.com/embed/-lkJV6x9z4U" frameborder="0" allowfullscreen></iframe>
+        <div class="titleall"> Live-Coding Improvisation </div>
+              <p>An electronic improvisation duo with Ricardo Saavedra where live coding in SuperCollider and ixi lang meet. Final piece for SuperCollider class 2015 taught by Chris Brown at Mills College.</p>
+              <p>Premiere in December 2015 at Littlefield Concert Hall, Mills College.
+</p>
+      </div>
+  </div>
+
+
+  <!-- The Flight to Halmstad -->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Flight" src="Myndir/Flight2.jpg">
+          <div class="overlay">
+              <span class="overlay-title"> The Flight to Halmstad</span>
+              <br/></br>
+              <span class="overlay-describe"> The Flight to Halmstad is a composition for two typewriters, a storyteller, flute, clarinet, horn and ebows on a piano. The centre of the composition is exploring the sound possibilities of typewriters as instruments and as notation writers for the other instruments. The composition is based on a short story by Gyrðir Elíasson, The Flight to Halmstad, translated by Victoria Cribb.
+ </span>
+          </div>
+      </div>
+
+      <div id="Flight-drop" class="dropdown">
+        <iframe width="950" height="200px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271793733&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        <div class="titleall"> The Flight to Halmstad </div>
+
+      <p>The Flight to Halmstad is a composition for two typewriters, a storyteller, flute, clarinet, horn and ebows on a piano. The centre of the composition is exploring the sound possibilities of typewriters as instruments and as notation writers for the other instruments. The composition is based on a short story by Gyrðir Elíasson, The Flight to Halmstad, translated by Victoria Cribb.
+</p>
+      <p>In The Flight to Halmstad the typewriter is an instrument, equally as valuable as the other performers playing traditional instruments. The typewriter score is written in traditional- classical notation, challenging the ability of that system to write for unconventional instruments. Writing for a typewriter in the traditional notation system is challenging as it is not a conventional instrument, new specific graphics are necessary in the score to write out the sounds coming from the typewriter.
+</p>
+  <p>The traditional notation that the two typewriters play generate a text score for the trio to improvise off of. In this composition the text scores are very open. They are short sentences from the short story Flight to Halmstad. These texts inspire and are meant to stimulate the performer, structuring  their improvisations. The piece is structured such that for each sentence of the short story, the typewriter outputs the sentence in various forms onto the page by exactly following the traditional notation written for it. Following this, the traditional instruments improvise based off of this generated page. Finally the storyteller reads out the sentence.
+</p>
+<p>Text and graphic scores in the modern sense go back to the experiments of the New York School composers around the early 1950s.  Those scores use non-traditional symbols and text to convey information about the performance of the piece of music, often having more resemblance to abstract paintings than they do to musical scores. Early practitioners include Earle Brown, John Cage and Pauline Oliveros. ´The Flight to Halmstad´ contrasts traditional notation for unconventional instruments with unconventional notation for traditional instruments.
+</p>
+<p>Recorded in April 2016 at Centre for Contemporary Music, Mills College.
+</p>
+
+      </div>
+  </div>
+
+  <!-- Right is Wrong-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Right" src="Myndir/Right.png">
+          <div class="overlay">
+              <span class="overlay-title"> Right is Wrong </span>
+              <br/></br>
+              <span class="overlay-describe"> “Right is Wrong” is a solo piano piece, written with animated notation. Every time the piece is performed, the left hand is the same but the right hand is written with real-time notation and is continually changing.
+ </span>
+          </div>
+      </div>
+
+      <div id="Right-drop" class="dropdown">
+<iframe width="990" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/266678674&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<div class="titleall"> Right is Wrong </div>
+
+<p> “Right is Wrong” is a solo piano piece, written with animated notation. Every time the piece is performed, the left hand is the same but the right hand is written with real-time notation and is continually changing. The result of this is that the pianist can practice the left hand but not the right hand. The piece is supposed to challenge the idea of the perfect concert pianist that does not make mistakes. The goal is not perfection because the right hand is unpredictable and impossibly hard to play. The right hand is wrong, or Right is Wrong.
+</p>
+
+      <p>Premiered in May 2013 at The North Pole Theatre, Reykjavik. Performed in August 2013 at The Reykjavik Culture Night, Harpa Concert Hall, and at The Dark Music Days 2014 in January. </p>
+<p></p> <b>Notation</b> <p>
+<iframe width="600" height="500" src="https://www.youtube.com/embed/D4SG5cAaA-c" frameborder="0" allowfullscreen></iframe>
+</p>
+      </div>
+  </div>
+
+  <!-- Y-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Y" src="Myndir/cello2.jpg">
+          <div class="overlay">
+              <span class="overlay-title"> Y </span>
+              <br/></br>
+              <span class="overlay-describe"> Y is an interactive chamber music piece written for four strings and includes motion detectors that generate a real-time animated score.
+ </span>
+          </div>
+      </div>
+
+      <div id="Y-drop" class="dropdown">
+        <iframe width="990" height="600" src="https://www.youtube.com/embed/6_-VKecsLuU" frameborder="0" allowfullscreen></iframe>
+        <div class="titleall"> Y</div>
+
+      <p>Y is an interactive chamber music piece written for four strings, three violins and a cello, and includes motion detectors that generate a real-time animated score. Each time the piece is performed, it is different depending on the movement of the audience. The audience knows that they can interfere with the notation by moving, but they do not know how these movements are changing the notation.
+</p>
+      <p>The score is built on traditional notation so it generates pitch on traditional five stave lines. Sometimes a rhythmic pattern is given, but sometimes only a pitch. If no rhythmic pattern is given the performer is free to improvise a free rhythm. Instead of using traditional musical terms, like allegro, it uses english adjectives for example shy, hysterical or impulsive. In the end all pitches disappear and the four string players are given instruction to glissando.
+</p>
+<p>The notation generates complicated harmony and difficult rhythmic counterpoint. The visible aspect of the notation is an important part of this composition as well as giving the audience part in co-composing this composition with their movements.
+</p>
+<p>The purpose of this piece was to explore audience participation randomising aspects of the notation.
+</p>
+<p>Premiered in June 2014 at Podium Festival, Kex Hostel, Reykjavik</p>
+<p><b>Notation</b></p>
+
+      </div>
+  </div>
+
+  <!-- Muschine-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Muschine" src="Myndir/Muschine.jpg">
+          <div class="overlay">
+              <span class="overlay-title"> Muschine </span>
+              <br/></br>
+              <span class="overlay-describe"> Muschine is a duo between a pianist and a live coder. The live-coding builds a unique sound-sculpture around the piano lines. The composition explores the possibilities of incorporating improvised live coded sounds with acoustic instruments.
+ </span>
+          </div>
+      </div>
+
+      <div id="Muschine-drop" class="dropdown">
+<div class="titleall"> Muschine </div>
+<iframe width="990" height="600" src="https://www.youtube.com/embed/D3AJ432ssqo" frameborder="0" allowfullscreen></iframe>
+
+      <p>Muschine is a duo between a pianist and a live coder. The live-coding builds a unique sound-sculpture around the piano lines. The composition explores the possibilities of incorporating improvised live coded sounds with acoustic instruments.
+</p>
+      <p>The live-coder is improvising and leading the composition. The live coding is on a screen seen by both pianist and the audience. The pianist is playing traditional notation, that has been split into numbered units. The live-coder controls when the pianist plays, by typing comments into the code stating what the pianist should play, for example: “Play unit 3, peacefully, three times.”  It is a conversation between the two players and their very different sound sources, an acoustic piano and electronic sound mass.  It is an exploration of using improvised computer music in classical composition.
+</p>
+<p>The live-coding is done in ixi lang. Ixi lang is a live coding environment and a controller for synth engines written in open source programming languages such as SuperCollider. The ixi lang score is active, it can changes in real time by writing new code. According to ixi lang´s website the aim  of the software is to: “We acknowledge the constraints that software put on the musician, the limits that the tool sets for the creative process and we therefore promote and try to disseminate technologies which open up the limits of the software (or defines new boundaries). Our belief is that it should be the artist that defines the scope of his or her instrument (and therefore music), not a commercial software company.”
+</p>
+<p>Premiered in January 2015, at The Dark Music Days in Harpa Concert Hall.
+</p>
+
+      </div>
+  </div>
+
+  <!-- Myrkraverk-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Myrkraverk" src="Myndir/Myrkraverk.png">
+          <div class="overlay">
+              <span class="overlay-title"> Myrkraverk </span>
+              <br/></br>
+              <span class="overlay-describe"> Myrkraverk is a composition for a solo double bass and eight percussionists. The composition uses LED lights as notation, each colour of the light representing a different playing method.
+ </span>
+          </div>
+      </div>
+
+      <div id="Myrkraverk-drop" class="dropdown">
+      <div class="titleall"> Myrkraverk </div>
+
+      <p>Myrkraverk is a composition for a solo double bass and eight percussionists. It is written with real-time animated notation, controlled by an Arduino through software built in Pure Data. The double bass player stands in the middle while the eight percussionists sit on the floor around him. The double bass plays animated notation on a screen while in front of each percussionist is a LED light. That light is their notation, each colour of the light representing a different playing method, and their instruments are unconventional - for example banging together stones, wood and knitting needles.
+</p>
+      <p>The piece is performed almost in darkness, only the notation light is visible. The title is of this composition is a word play. In Icelandic “myrkur” means darkness and “verk” means a piece. These words together - Myrkraverk - means a deed of darkness.
+</p>
+<p>The lines played by the double bass are dark and heavy, but framed by the beautiful counterpoint of the percussionists. To begin with the percussion instruments are small sounds but they grow as the composition builds up to more aggressive sounds. The LED notation makes the complicated counterpoint played by the percussionists so easy that anyone could take part in performing this composition.
+</p>
+<p>Premiered in May 2013 at The North Pole Theatre, Reykjavik. Performed in June 2013 at Podium Festival Reykjavik at The Nordic House.
+</p>
+<img src="Myndir/ljos.jpg" style="width: 500px; height:600px;"></iframe>
+
+
+      </div>
+  </div>
+
+  <!-- Radiostory-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Radiostory" src="Myndir/Radiostory.png">
+          <div class="overlay">
+              <span class="overlay-title"> Radiostory </span>
+              <br/></br>
+              <span class="overlay-describe"> Radio story is a solo composition for a toy piano written for Tinna Þorsteinsdóttir. Instead of using traditional notation the performer plays prerecorded instructions delivered by speakers. The notation blends in to become part of the acoustics of the composition.
+          </div>
+      </div>
+
+      <div id="Radiostory-drop" class="dropdown">
+<iframe width="990" height="600" src="https://www.youtube.com/embed/6K84iETqpdM" frameborder="0" allowfullscreen></iframe>
+<div class="titleall"> Radiostory </div>
+
+     <p>Radio story is a solo composition for a toy piano written for Tinna Þorsteinsdóttir. Instead of using traditional notation the performer plays prerecorded instructions delivered by speakers. The notation blends in to become part of the acoustics of the composition. The instructions were inspired by the reading of radio stories in the Icelandic National Radios.
+</p>
+
+      <p>Premiered in January 2015 at The Dark Music Days in Harpa Concert Hall. Performed at Mengi in May 2015.
+</p>
+
+      </div>
+  </div>
+
+  <!-- Fjorkalfur-->
+  <div>
+      <div class="crop">
+        <img class="banner-image" id="Fjorkalfur" src="Myndir/Fjorkalfur.jpg">
+          <div class="overlay">
+              <span class="overlay-title"> Fjörkálfur </span>
+              <br/></br>
+              <span class="overlay-describe"> Fjörkálfur is a composition based on a children’s story by Anna M. Clausen. The children’s story is spoken by a narrator accompanied by a septet and electronics. The composition was commissioned by Barnamenningarsjóður (Icelandic Cultural Children’s Grant) and Podium Festival.
+ </span>
+          </div>
+      </div>
+
+      <div id="Fjorkalfur-drop" class="dropdown">
+<div class="titleall"> Fjörkálfur </div>
+      <p>Fjörkálfur is a 30 minute long composition based on a children’s story by Anna M. Clausen. A chamber music piece for flute, clarinet, violin, double bass, accordion, piano, percussion and electronics.  Inspired by Prokofiev’s Peter and the Wolf, each character in the story has a particular instrument and a musical theme.
+</p>
+      <p>The work was premiered at Podium Festival 2012 in Selið, Stokkalæk. Stokkalækur used to be a farm but was remodelled into a music centre. The piece was performed in the old barn. The barn was filled with pillows and the kids where offered to sit on a pillow as close to the musicians as they wanted to.
+</p>
+<p>The intent of this composition was to get children interested in musical instruments and chamber music from an early age as well as simply creative entertainment for children.
+</p>
+<p>Plot:</p>
+<p>The story is about a calf, Fjörkálfur, that lives on a farm. His best friends are the northern lights and he dances with them at night. A pig, Hrekkjusvín, also lives at the farm and one day he captures the Northern Lights. Fjörkálfur sets off on a journey up the glacier, where the pig is hiding, to save his friends.
+</p>
+
+      </div>
+  </div>
+
+  <!-- ÁL-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="AL" src="Myndir/AL.png">
+          <div class="overlay">
+              <span class="overlay-title"> ÁL</span>
+              <br/></br>
+              <span class="overlay-describe"> Ál is a dance-movie, a collaboration with dancer/choreographer Yang Yang. The video was filmed and editing in close conjunction with the music – exploring the parallels of the rhythm of shot cuts in film with traditional rhythm in music.  </span>
+          </div>
+      </div>
+
+      <div id="AL-drop" class="dropdown">
+<iframe width="990" height="600" src="https://www.youtube.com/embed/gKSiN-MmXkc" frameborder="0" allowfullscreen></iframe><div class="titleall"> ÁL </div>
+      <p>A cymbal, a Moog synthesiser, a dancer, and their entwined surreal pilgrimage through simplicity and frenetic intensity. The title of the film is Icelandic, ÁL, which means aluminium. This work is a collaboration with the Chinese dancer/choreographer Yang Yang. The video was filmed and editing in close conjunction with the music – exploring the parallels of the rhythm of shot cuts in film with traditional rhythm in music.
+</p>
+      <p>Premiered at in May 2016 at Pro Arts Gallery in Oakland.
+</p>
+
+      </div>
+  </div>
+
+  <!-- Things with you -->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Yang" src="Myndir/Yang.jpg">
+          <div class="overlay">
+              <span class="overlay-title"> Things with you </span>
+              <br/></br>
+              <span class="overlay-describe"> "Things with you" is a dance-work by a collaboration with dancer/choreographer Yang Yang </span>
+          </div>
+      </div>
+
+      <div id="Yang-drop" class="dropdown">
+        <iframe width="990" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271803294&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      <p>"Things with you" is a dance-work by a collaboration with dancer/choreographer Yang Yang. </p>
+      <p>Premiered in December 2015 at the Mills Dance Department.</p>
+        <img src="Myndir/Yang.jpg" style="width: 990px; height:1000px;"></iframe>
+
+
+      </div>
+  </div>
+
+  <!-- Cause of Action-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Cause" src="Myndir/Cause.png">
+          <div class="overlay">
+              <span class="overlay-title"> Cause of Action </span>
+              <br/></br>
+              <span class="overlay-describe"> Music for a dance-movie, Cause of Action, by coregrapher/filmmaker Arndís Benediktsdóttir.  Cause of Action is an experimental dance film where the boundaries between normal action and dance are blurred. </span>
+          </div>
+      </div>
+
+      <div id="Cause-drop" class="dropdown">
+        <iframe width="990" height="600" src="https://www.youtube.com/embed/nnJTjWemL2s" frameborder="0" allowfullscreen></iframe>
+        <div class="titleall"> Cause of Action </div>
+      <p>Music for a dance-movie, Cause of Action, by coregrapher/filmmaker Arndís Benediktsdóttir.  Cause of Action is an experimental dance film where the boundaries between normal action and dance are blurred. </p>
+      <p>Premiered in March 2012 at Tjarnarbio Cinema in Reykjavik.
+</p>
+
+      </div>
+  </div>
+
+
+  <!-- Sacrid Woods 1882-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Sacrid" src="Myndir/Sacrid.png">
+          <div class="overlay">
+              <span class="overlay-title"> The Sacrid Woods 1882</span>
+              <br/></br>
+              <span class="overlay-describe"> A music for a dance movie, The Sacrid Woods 1882, by coregrapher/filmmaker Elísabet Birta Sveinsdóttir.  </span>
+          </div>
+      </div>
+
+      <div id="Sacrid-drop" class="dropdown">
+<iframe width="990" height="600" src="https://www.youtube.com/embed/yfxO6ZeX_o4" frameborder="0" allowfullscreen></iframe>
+<div class="titleall"> The Sacrid Woods 1882 </div>
+      <p>A music for a dance movie, The Sacrid Woods 1882, by coregrapher/filmmaker Elísabet Birta Sveinsdóttir. Awarded to the finals in the Arctic Heat Film Competition in Finland and screened at the Kampus Kino in Jyväskylä.
+</p>
+      <p>Premiered in March 2013 at Tjarnarbio Cinema, Reykjavik.</p>
+
+      </div>
+  </div>
+
+  <!-- Hjartaprydi-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Hjarta" src="Myndir/Hjartaprydi.png">
+          <div class="overlay">
+              <span class="overlay-title"> Hjartaprýði</span>
+              <br/></br>
+              <span class="overlay-describe"> Music for a short film by Haraldur Bjarni Óskarsson. Hjartaprýði was awarded the Best film at the Directing/Producing department at the Icelandic Film School graduation spring of 2015.
+ </span>
+          </div>
+      </div>
+
+      <div id="Hjarta-drop" class="dropdown">
+<iframe width="990" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271798277&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<div class="titleall"> Hjartaprýði </div>
+
+      <p>Music for a short film by Haraldur Bjarni Óskarsson. Hjartaprýði was awarded the Best film at the Directing/Producing department at the Icelandic Film School graduation spring of 2015.
+</p>
+      <p>Premiered in May 2015, Tjarnabio Cinema Reykjavik.</p>
+
+      </div>
+  </div>
+
+  <!-- Rof-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Rof" src="Myndir/rof2.jpg">
+          <div class="overlay">
+              <span class="overlay-title"> Rof</span>
+              <br/></br>
+              <span class="overlay-describe"> Music for a short film, Rof, by Sigmar Ingi Sigurgeirsson. Rof has been awarded numerous awards for example Top Inde Awards 2016 for Best Short and Best director and 2nd Prize for Film of the Month Award by TMFF, The Monthly Film Festival. </span>
+          </div>
+      </div>
+
+      <div id="Rof-drop" class="dropdown">
+        <div class="titleall"> Rof  </div>
+      <p>Music for a short film, Rof, by Sigmar Ingi Sigurgeirsson. Rof has been awarded numerous awards for example Top Inde Awards 2016 for Best Short and Best director and 2nd Prize for Film of the Month Award by TMFF, The Monthly Film Festival.
+</p>
+      <p>Premiered in May 2015, Tjarnarbio Cinema Reykjavik. </p>
+
+      </div>
+  </div>
+
+  <!-- Throskathjalfun-->
+  <div>
+      <div class="crop">
+          <img class="banner-image" id="Throsk" src="Myndir/Throskathjalfun.png">
+          <div class="overlay">
+              <span class="overlay-title">  Documentary about Young Athletes  </span>
+              <br/></br>
+              <span class="overlay-describe"> Music for a documentary by Arndís Benediktsdóttir.
+ </span>
+          </div>
+      </div>
+
+      <div id="Throsk-drop" class="dropdown">
+        <iframe width="990" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271647035&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        <div class="titleall"> Documentary about Young Athletes  </div>
+      <p>Music for a documentary by Arndís Benediktsdóttir. The documentary is about the Young Athletes program and the importance of sports for children with special needs. The Young Athletes is a uniq sport and play program for children with intellectual disabilities. It is an early introduction to sports and to the world of Special Olympics.
+</p>
+      <p>Premiered in May 2015, Tjarnarbio Cinema Reykjavik.</p>
+
+      </div>
+  </div>
 
 <script src="main.js"></script>
 

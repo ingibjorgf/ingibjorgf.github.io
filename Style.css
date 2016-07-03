@@ -14,6 +14,10 @@ a:hover {
     color: blue;
 }
 
+.fixed {
+  position: fixed !important:;
+}
+
 #name {
     position: absolute;
     color: white;
@@ -47,6 +51,30 @@ a:hover {
   background: white;
   left: 13%;
   top: 9vw;
+  padding: 7px 12px 7px 12px;
+  text-align: left;
+  font: Courier New;
+}
+
+#type {
+  font-size: 1.5vw;
+  color: black;
+  position: absolute;
+  background: white;
+  left: 26.3%;
+  top: 17vw;
+  padding: 7px 12px 7px 12px;
+  text-align: left;
+  font: Courier New;
+}
+
+#List {
+  font-size: 1.2vw;
+  color: black;
+  position: absolute;
+  background: white;
+  left: 1%;
+  top: 42vw;
   padding: 7px 12px 7px 12px;
   text-align: left;
   font: Courier New;
@@ -145,7 +173,7 @@ a:hover {
 
 .overlay-describe {
     font-size: 1vw;
-    width: 70%;
+    width: 78%;
     display: inline-block;
     text-align: center;
 }
@@ -169,8 +197,9 @@ a:hover {
 .crop {
   width: 69vw;
   height: 15vw;
+  box-shadow: 2px 5px 2px #999;
   overflow: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 17px;
   top: 20vw;
   left: 27%;
   position: relative;
@@ -181,16 +210,159 @@ a:hover {
 .dropdown {
     position: relative;
     left: 27%;
-    top: 17vw;
-    width: 69vw;
+    top: 20vw;
+    width: 65vw;
     height: 500px;
-    font-size: 2vw;
-    color: black;
-    background: black;
+    font-size: 1vw;
+    text-align: justify;
     display: none;
+    background-color: white;
 
 }
 
-#Einn {
-    margin-top: -230px;
+.titleall
+{
+  font-size: 2vw;
+  padding: 10px 0 0 0;
+}
+
+#Idrum {
+    margin-top: -250px;
+}
+#Idrum-drop {
+    height: 2000px;
+}
+
+#Moog  {
+    margin-top: -1200px;
+}
+#Mood-drop {
+    height: 200px;
+}
+
+#SC3  {
+    margin-top: -80px;
+}
+#SC3-drop {
+    height: 400px;
+}
+
+#Blonde  {
+    margin-top: -100px;
+}
+#Blonde-drop {
+    height: 800px;
+}
+#Guitar{
+    margin-top: -250px;
+}
+#Guitar-drop {
+    height:500px;
+}
+
+
+#Coding {
+    margin-top: -250px;
+}
+#Coding-drop {
+    height: 800px;
+}
+
+#Flight {
+    margin-top: -250px;
+}
+#Flight-drop {
+    height: 800px;
+}
+
+#Right {
+    margin-top: -150px;
+}
+#Right-drop {
+    height:1000px;
+}
+
+#Y {
+    margin-top: -50px;
+}
+#Y-drop {
+    height: 1600px;
+}
+
+#Muschine {
+    margin-top: -400px;
+}
+#Muschine-drop {
+    height: 1000px;
+}
+
+#Myrkraverk {
+    margin-top: -400px;
+}
+#Myrkraverk-drop {
+    height: 1000px;
+}
+
+#Radiostory {
+    margin-top: -500px;
+}
+#Radiostory-drop {
+    height: 800px;
+}
+
+#Fjorkalfur {
+    margin-top: -350px;
+}
+#Fjorkalfur-drop {
+    height: 400px;
+}
+
+#AL {
+    margin-top: -300px;
+}
+#AL-drop {
+    height: 800px;
+  }
+
+#Yang {
+    margin-top: -300px;
+}
+#Yang-drop {
+    height: 1300px;
+  }
+
+#Cause {
+    margin-top: -200px;
+}
+#Cause-drop {
+    height: 800px;
+  }
+
+#Sacrid {
+    margin-top: -200px;
+}
+#Sacrid-drop {
+    height: 800px;
+  }
+
+#Hjarta {
+    margin-top: -100px;
+}
+
+#Hjarta-drop {
+    height: 400px;
+}
+
+#Rof {
+    margin-top: -50px;
+}
+#Rof-drop {
+    height: 400px;
+}
+
+#Throsk {
+    margin-top: -100px;
+}
+#Throsk-drop {
+    height: 400px;
 }
